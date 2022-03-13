@@ -367,10 +367,10 @@ body {
   left: -30px;
   bottom: 30%;
 }
-
-.card {
-  display: flex;
-  justify-content: space-between;
+.text__row__vin {
+  width: 1024px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 #about .cardd .bec {
@@ -537,6 +537,9 @@ body {
   border-radius: 3px;
 }
 
+#test .test {
+  padding-top: 50px;
+}
 #test .avatars {
   display: flex;
   justify-content: space-around;

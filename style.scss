@@ -347,17 +347,17 @@ body {
       bottom: 30%;
     }
   }
+  &__vin{
+    width: 1024px;
+    height:1px;
+    background: rgba(255, 255, 255, 0.1);
+  }
 }
 
 //hero
-//CIRCLE
-.card {
-  display: flex;
-  justify-content: space-between;
 
-}
 
-//CIRCLE
+
 //about
 
 #about {
@@ -564,6 +564,7 @@ body {
 
 
   .test {
+    padding-top: 50px;
     &__green {
       @extend %subtitle;
     }
